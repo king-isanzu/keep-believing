@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10111f">
+  <meta name="description" content="A gentle reminder: don't give up. Your real time will come. Keep believing.">
+  <title>Keep Believing — Your Time Will Come</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="stars" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Keep Believing home"><span class="brand-mark">✦</span> keep believing</a>
+    <div class="top-note"><span class="live-dot"></span> A little reminder for your heart</div>
+    <button class="sound-btn" id="sparkleBtn" type="button" aria-label="Create a little sparkle">✧ <span>Make a wish</span></button>
+  </header>
+
+  <main class="experience">
+    <section class="intro" aria-label="Introduction">
+      <p class="eyebrow"><span class="eyebrow-line"></span> A MESSAGE JUST FOR YOU <span class="eyebrow-line"></span></p>
+      <div class="hero-orb" aria-hidden="true"><div class="orb-ring ring-a"></div><div class="orb-ring ring-b"></div><span class="orb-star">✦</span><span class="orb-small s1">✧</span><span class="orb-small s2">✦</span><span class="orb-small s3">·</span></div>
+      <p class="intro-copy">For the days when you need a little hope.</p>
+    </section>
+
+    <section class="wish-card" aria-live="polite">
+      <div class="card-topline"><span id="pageLabel">01 / 10</span><span class="tiny-spark">✧</span><span>YOUR STORY IS STILL UNFOLDING</span></div>
+      <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+      <div class="wish-content" id="wishContent">
+        <p class="chapter" id="chapter">A gentle reminder</p>
+        <h1 id="wishTitle">Don't give up.</h1>
+        <p class="wish-text" id="wishText">Keep waiting for the real time. It will come. Just keep believing.</p>
+        <div class="decorative-divider"><span></span><i>✦</i><span></span></div>
+        <p class="small-note" id="wishNote">Beautiful things can take time.</p>
+      </div>
+      <div class="card-bottom">
+        <button class="nav-btn back-btn" id="backBtn" type="button" disabled><span>←</span> Back</button>
+        <div class="dots" id="dots" aria-label="Page navigation"></div>
+        <button class="nav-btn next-btn" id="nextBtn" type="button">Next page <span>→</span></button>
+      </div>
+    </section>
+
+    <div class="bottom-caption"><span class="caption-icon">☾</span><span>Take a breath. You are allowed to grow at your own pace.</span><span class="caption-icon">✧</span></div>
+  </main>
+
+  <footer><span>MADE WITH HOPE</span><span class="footer-heart">♥</span><span>ONE DAY, IT WILL MAKE SENSE.</span></footer>
+  <div class="toast" id="toast" role="status">Your wish is on its way to the stars ✨</div>
+  <script src="script.js"></script>
+</body>
+</html>
